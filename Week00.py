@@ -1,3 +1,7 @@
+Cristian Arroyo
+Comp 363 - 002
+9/5/25
+
 def left_child(parent: int) -> int:
     """Index of the left child."""
     return 2 * parent + 1
@@ -98,3 +102,4 @@ if __name__ == "__main__":
     print("Removed:", heap.remove())
     print("Heap after removal:", heap)
     print("Heap size:", heap.size())
+
