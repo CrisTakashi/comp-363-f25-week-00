@@ -1,7 +1,3 @@
-Cristian Arroyo
-Comp 363 - 002
-9/5/25
-
 def left_child(parent: int) -> int:
     """Index of the left child."""
     return 2 * parent + 1
@@ -92,14 +88,13 @@ class MinHeap:
 # Simple test block
 if __name__ == "__main__":
     heap = MinHeap()
-    heap.add("delta")
+    heap.add("bro")
     heap.add("alpha")
-    heap.add("charlie")
-    heap.add("bravo")
+    heap.add("lumber")
+    heap.add("joker")
 
     print("Heap:", heap)
     print("Smallest element:", heap.peek())
     print("Removed:", heap.remove())
     print("Heap after removal:", heap)
     print("Heap size:", heap.size())
-
